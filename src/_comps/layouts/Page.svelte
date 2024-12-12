@@ -8,7 +8,11 @@
 		children: Snippet;
 	}
 
-	const { className = '', children, ...rest }: Props & SvelteHTMLElements['main'] = $props();
+	const {
+		className = '',
+		children,
+		...rest
+	}: Props & Omit<SvelteHTMLElements['main'], 'class'> = $props();
 
 	const page = tv({
 		base: ['']

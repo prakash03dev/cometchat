@@ -19,7 +19,7 @@
 		pyEnabled = !isHero,
 		pxEnabled = true,
 		...rest
-	}: Props & SvelteHTMLElements['div'] = $props();
+	}: Props & Omit<SvelteHTMLElements['div'], 'class'> = $props();
 
 	const container = tv({
 		base: ['mx-auto max-w-[1440px]'],

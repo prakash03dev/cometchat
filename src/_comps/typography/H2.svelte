@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { tv } from '@/_utils/tailwind.utils';
 	import { type Snippet } from 'svelte';
+	import type { SvelteHTMLElements } from 'svelte/elements';
 
 	interface Props {
 		className?: string;
@@ -8,7 +9,11 @@
 		children: Snippet;
 	}
 
-	const { className = '', tagName = 'h2', children }: Props = $props();
+	const {
+		className = '',
+		tagName = 'h2',
+		children
+	}: Props & Omit<SvelteHTMLElements['h2' | 'p' | 'span'], 'class'> = $props();
 
 	const h2 = tv({
 		base: ['font-600 text-22 leading-106', 'lg:text-32']
