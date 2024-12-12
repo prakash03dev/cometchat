@@ -1,4 +1,4 @@
-enum COLORS {
+export enum COLORS {
     grayscale_01 = "#fafaff",
     grayscale_12 = "#14131d",
 
@@ -22,3 +22,5 @@ enum COLORS {
     red_05 = "#fbd3cd",
     dark_foreground = "#fafaff"
 }
+
+export type ColorProps = keyof typeof COLORS;

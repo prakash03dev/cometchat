@@ -1,6 +1,6 @@
 <script>
-	import Section from '../_comps/layouts/Section.svelte';
-	import H1 from '../_comps/typography/H1.svelte';
+	import Section from '@/_comps/layouts/Section.svelte';
+	import H1 from '@/_comps/typography/H1.svelte';
 </script>
 
 <Section data-name="testing!">
