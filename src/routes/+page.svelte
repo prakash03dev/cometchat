@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import H1 from '../_comps/typography/H1.svelte';
+</script>
+
+<H1>Testing h1</H1>
