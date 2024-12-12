@@ -8,17 +8,13 @@
 		children: Snippet;
 	}
 
-	const {
-		className = '',
-		children,
-		...rest
-	}: Props & Omit<SvelteHTMLElements['section'], 'class'> = $props();
+	const { className = '', children, ...rest }: Props & SvelteHTMLElements['main'] = $props();
 
-	const section = tv({
+	const page = tv({
 		base: ['']
 	});
 </script>
 
-<section class={section({ class: className })} {...rest}>
+<main class={page({ class: className })} {...rest}>
 	{@render children()}
-</section>
+</main>

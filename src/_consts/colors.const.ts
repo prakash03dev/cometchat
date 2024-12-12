@@ -4,14 +4,13 @@ export enum COLORS {
 
     grayscale_dark_01 = "#0a0914",
     grayscale_dark_08 = "#54535b",
-    grayscale_dark_12 = "#fafaff",
+
 
     brand_01 = "#fcfcfe",
     brand_06 = "#d8d2f4",
     brand_09 = "#6852d6",
     brand_dark_07 = "#45368D",
     brand_dark_09 = "#6852d6",
-    brand_dark_12 = "#fcfcfe",
 
     orange_06 = "#ffd2bb",
     orange_07 = "#ffc1a1",
@@ -20,7 +19,6 @@ export enum COLORS {
     orange_dark_09 = "#ff7f3e",
 
     red_05 = "#fbd3cd",
-    dark_foreground = "#fafaff"
 }
 
 export type ColorProps = keyof typeof COLORS;

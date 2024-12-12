@@ -35,13 +35,15 @@ export const FONT_WEIGHT = {
 };
 
 export const FONT_FAMILY = {
-  inter: ["'Inter Variable'", "'sans-serif'"],
+  satoshi: ["'Satoshi-Variable'", "'sans-serif'"],
 };
 
 
 export const LINE_HEIGHT = {
   "100": "1",
+  "106": "1.06",
   "110": "1.1",
+  "112": "1.12",
   "120": "1.2",
   "125": "1.25",
   "130": "1.3",
