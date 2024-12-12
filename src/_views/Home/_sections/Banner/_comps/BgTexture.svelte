@@ -10,6 +10,6 @@
 	<img
 		src={bg_texture_mobile}
 		alt="background texture"
-		class={cn(['absolute inset-0 -z-6', 'w-full h-full object-cover'])}
+		class={cn(['absolute inset-0 -z-7', 'w-full h-full object-cover'])}
 	/>
 </picture>

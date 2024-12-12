@@ -5,7 +5,10 @@
 
 <picture data-name="stars">
 	<img
-		class={cn(['absolute inset-0 -z-5', 'w-full h-full object-cover object-right'])}
+		class={cn(
+			['absolute inset-0 -z-3', 'w-full h-full object-cover object-right'],
+			['lg:object-center']
+		)}
 		src={stars_bg}
 		alt="starts background"
 	/>

@@ -16,7 +16,7 @@
 
 	const label = tv({
 		base: [
-			'bg-brand_dark_09 rounded-[12px] px-3 py-2 w-max',
+			'bg-brand_dark_09 rounded-[12px] px-4 py-3 w-max',
 			'font-600 text-14 text-grayscale_01 leading-140'
 		]
 	});

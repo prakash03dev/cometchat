@@ -3,5 +3,5 @@
 </script>
 
 <div class="relative">
-	<img src={red_comet} alt="blue commet" />
+	<img src={red_comet} alt="red comet" />
 </div>
