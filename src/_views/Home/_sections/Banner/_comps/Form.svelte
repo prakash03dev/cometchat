@@ -8,7 +8,7 @@
 </script>
 
 <div class={cn(['min-h-[300px] p-5 relative isolate'])}>
-	<div class="flex flex-col gap-6 relative">
+	<div class="flex flex-col gap-6">
 		<H3 className="text-grayscale_01">Became a partner</H3>
 		<form class="flex flex-col gap-4">
 			<InputField>
@@ -34,8 +34,8 @@
 
 	<div
 		class={cn([
-			'absolute inset-0 w-full h-full rounded-3xl',
-			'bg-grayscale_01 bg-opacity-[18%] backdrop-blur-[100]',
+			'absolute inset-0 -z-1 w-full h-full rounded-3xl',
+			'bg-grayscale_01 bg-opacity-[18%] backdrop-blur-[100px]',
 			'border-grayscale_01 rounded-3xl border border-opacity-5'
 		])}
 	></div>

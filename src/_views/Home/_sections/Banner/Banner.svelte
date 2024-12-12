@@ -9,19 +9,26 @@
 	import BgTexture from './_comps/BgTexture.svelte';
 	import BgBlurMask from './_comps/BgBlurMask.svelte';
 	import BgCommets from './_comps/BgCommets/BgCommets.svelte';
-	import BlueCommet from './_comps/BgCommets/_comps/BlueCommet.svelte';
+	import BgVintage from './_comps/BgVintage.svelte';
 </script>
 
 <Section className="bg-grayscale_dark_01 relative isolate overflow-hidden">
-	<Container isHero={true} className={cn(['grid grid-cols-1 gap-8'])}>
-		<Info />
-		<Form />
+	<Container
+		isHero={true}
+		className={cn(['grid grid-cols-1 gap-8 min-h-screen'], ['lg:grid-cols-2 lg:gap-10'])}
+	>
+		<!-- <Info />
+		<Form /> -->
+		<div></div>
 	</Container>
 
 	<BgTexture />
-	<BgStars />
-
 	<BgBlurMask />
+
+	<!--	<BgStars />
+
 	<BgCommets />
 	<BottomGradient />
+
+	<BgVintage /> -->
 </Section>

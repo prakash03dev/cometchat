@@ -3,8 +3,10 @@
 	import stars_bg from '../_assets/stars_bg.png';
 </script>
 
-<img
-	class={cn(['absolute inset-0 -z-5', 'w-full h-full object-cover object-right'])}
-	src={stars_bg}
-	alt="starts background"
-/>
+<picture data-name="stars">
+	<img
+		class={cn(['absolute inset-0 -z-5', 'w-full h-full object-cover object-right'])}
+		src={stars_bg}
+		alt="starts background"
+	/>
+</picture>

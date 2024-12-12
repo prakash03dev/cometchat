@@ -3,6 +3,7 @@
 </script>
 
 <div
+	data-name="bottom-gradient"
 	class={cn(
 		[
 			'absolute bottom-0 left-0 right-0 w-full h-[120px] -z-1',
