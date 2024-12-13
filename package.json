@@ -33,10 +33,13 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@types/gsap": "^3.0.0",
 		"clsx": "^2.1.1",
 		"embla-carousel-auto-scroll": "^8.5.1",
 		"embla-carousel-autoplay": "^8.5.1",
 		"embla-carousel-svelte": "^8.5.1",
+		"gsap": "^3.12.5",
+		"svelte-motion": "^0.12.2",
 		"tailwind-variants": "^0.3.0"
 	}
 }
