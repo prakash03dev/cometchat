@@ -5,7 +5,7 @@
 	import Clients from './_sections/Clients/Clients.svelte';
 </script>
 
-<Page>
+<Page className="bg-grayscale_dark_01">
 	<Banner />
 	<Clients />
 	<Partner />

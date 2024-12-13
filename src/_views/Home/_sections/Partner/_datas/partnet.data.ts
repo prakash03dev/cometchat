@@ -1,4 +1,3 @@
-import type { Snippet } from 'svelte';
 import {
 	CreaditIcon,
 	DeveloperIcon,
@@ -12,7 +11,7 @@ import {
 } from '../_icons';
 
 interface ContentProps {
-	icon: Snippet;
+	icon: any;
 	title: string;
 	des: string;
 }
@@ -46,7 +45,7 @@ export const partnetContents: ContentProps[] = [
 	{
 		icon: ValueIcon,
 		title: 'Value addition to your users',
-		des: 'We need a 2 line text here '
+		des: 'We need a 2 line text here.'
 	},
 	{
 		icon: KnowledgeIcon,
@@ -61,6 +60,6 @@ export const partnetContents: ContentProps[] = [
 	{
 		icon: IncomeIcon,
 		title: 'Significant passive income',
-		des: 'We need a 2 line text here '
+		des: 'We need a 2 line text here.'
 	}
 ];

@@ -9,7 +9,7 @@
 		title: string;
 		des: string;
 	}
-	const { className = '', icon: Icon, title, des } = $props();
+	const { className = '', icon: Icon, title, des }: Props = $props();
 
 	const contentWrap = tv({
 		base: ['text-left max-w-[394px] w-full']
@@ -18,10 +18,10 @@
 
 <div class={contentWrap({ class: className })}>
 	<Icon />
-	<Medium className={cn(['text-grayscale_01 mt-2'], ['lg:mt-3'])} tagName="p">
+	<Medium className={cn(['text-grayscale_01 mt-2'], ['lg:mt-3'])}>
 		{title}
 	</Medium>
-	<Medium className={cn(['text-grayscale_01/75 font-500 mt-1 '])} tagName="p">
+	<Medium className={cn(['text-grayscale_01/75 font-500 mt-1.5 '])}>
 		{des}
 	</Medium>
 </div>
