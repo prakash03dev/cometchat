@@ -5,9 +5,11 @@
 	import '../_theme/global.css';
 	import Header from '@/_bricks/Header/Header.svelte';
 	import Footer from '@/_bricks/Footer/Footer.svelte';
+	import Copywrite from '@/_bricks/Copywrite/Copywrite.svelte';
 	const { children } = $props();
 </script>
 
 <Header />
 {@render children()}
 <Footer />
+<Copywrite />
