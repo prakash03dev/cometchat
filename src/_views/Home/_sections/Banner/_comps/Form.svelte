@@ -8,9 +8,9 @@
 </script>
 
 <div class={cn(['relative isolate', 'p-5 h-max'], ['lg:p-8 lg:max-w-[540px]'])}>
-	<div class="flex flex-col gap-6">
+	<div class={cn(['flex flex-col gap-6'], ['lg:gap-8'])}>
 		<H3 className="text-grayscale_01">Became a partner</H3>
-		<form class="flex flex-col gap-4">
+		<form class="flex flex-col gap-5">
 			<InputField>
 				<Label for="FULL_NAME">Full name</Label>
 				<Input id="FULL_NAME" placeholder="Enter your fullname..." name="FULL_NAME" required />
@@ -28,7 +28,7 @@
 					required
 				/>
 			</InputField>
-			<Button className="mt-2.5">Submit application</Button>
+			<Button className="mt-1.5">Submit application</Button>
 		</form>
 	</div>
 

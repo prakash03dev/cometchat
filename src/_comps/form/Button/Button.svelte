@@ -21,8 +21,10 @@
 		base: [
 			'group/btn',
 			'relative isolate',
+			'font-600 text-14 text-grayscale_01 leading-140 whitespace-nowrap',
 			'rounded-[12px] px-4 py-3 w-max',
-			'font-600 text-14 text-grayscale_01 leading-140 whitespace-nowrap'
+			'active:scale-[0.98]',
+			'transition-transform duration-300'
 		],
 		variants: {
 			color: {

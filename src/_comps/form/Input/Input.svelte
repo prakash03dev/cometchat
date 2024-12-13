@@ -12,7 +12,9 @@
 		base: [
 			'py-3 px-4 w-full',
 			'bg-grayscale_01 bg-opacity-[2%]',
+			'outline-none transition-colors duration-300',
 			'border border-grayscale_01 border-opacity-10 rounded-[14px]',
+			'focus:border-brand_09',
 			'font-600 text-16 text-grayscale_01 leading-112 text-opacity-65',
 			'placeholder-shown:text-grayscale_01 placeholder-shown:text-opacity-75'
 		]

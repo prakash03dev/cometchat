@@ -15,7 +15,7 @@
 	}: Props & Omit<SvelteHTMLElements['div'], 'class'> = $props();
 
 	const inputField = tv({
-		base: ['group/inputField relative isolate', 'flex flex-col gap-1.5']
+		base: ['group/inputField', 'relative isolate', 'flex flex-col gap-1.5']
 	});
 </script>
 

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { cn } from '@/_utils/tailwind.utils';
+	import MenuItemUnderline from './MenuItemUnderline.svelte';
 
 	interface Props {
 		className?: string;
@@ -19,8 +20,15 @@
 	<a
 		{id}
 		{href}
-		class={cn(['font-600 text-16 text-grayscale_01', 'py-4 w-full'], ['lg:text-14'], [className])}
+		class={cn(
+			['group/menuItem'],
+			['relative isolate'],
+			['font-600 text-16 text-grayscale_01', 'py-4 w-full', 'transition-colors duration-300'],
+			['lg:text-14 lg:hover:text-[#F37B44]'],
+			[className]
+		)}
 	>
 		{title}
+		<MenuItemUnderline />
 	</a>
 </li>
