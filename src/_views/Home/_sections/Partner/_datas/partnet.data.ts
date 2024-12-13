@@ -11,7 +11,7 @@ import {
 } from '../_icons';
 
 interface ContentProps {
-	icon: any;
+	icon: __sveltets_2_IsomorphicComponent;
 	title: string;
 	des: string;
 }
