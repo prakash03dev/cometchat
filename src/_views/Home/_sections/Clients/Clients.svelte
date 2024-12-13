@@ -11,7 +11,7 @@
 		watchDrag: false,
 		watchFocus: false
 	};
-	const plugins = [AutoScroll({ speed: 1, stopOnInteraction: false, stopOnFocusIn: false })];
+	const plugins = [AutoScroll({ speed: 0.5, stopOnInteraction: false, stopOnFocusIn: false })];
 </script>
 
 <Section className="bg-grayscale_dark_01">
