@@ -32,14 +32,14 @@
 	<button
 		class={cn(
 			[
-				'flex items-center justify-between py-4 w-full',
+				'grid grid-cols-[1fr_auto] items-center justify-between py-4 w-full',
 				'border-b border-b-grayscale_01 border-opacity-5'
 			],
 			['lg:hidden']
 		)}
 		onclick={handleOnToggle}
 	>
-		<p class="text-16 font-600 text-brand_09">{title}</p>
+		<p class="text-16 font-600 text-brand_09 text-left">{title}</p>
 		<PlusIcon
 			className={cn([
 				'transition-transform duration-[var(--transition-duration)]',
