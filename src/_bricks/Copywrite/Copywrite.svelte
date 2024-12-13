@@ -42,7 +42,7 @@
 	<div
 		class={cn([
 			'bg-[linear-gradient(90deg,_rgba(39,_39,_48,_0)_0%,_#272730_47.92%,_rgba(39,_39,_48,_0)_100%)]',
-			'w-4/5 h-1px mx-auto'
+			'w-4/5 h-[1px] mx-auto'
 		])}
 	></div>
 	<Container
