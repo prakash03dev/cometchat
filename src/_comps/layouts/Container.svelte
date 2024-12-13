@@ -22,7 +22,7 @@
 	}: Props & Omit<SvelteHTMLElements['div'], 'class'> = $props();
 
 	const container = tv({
-		base: ['mx-auto max-w-[1440px]'],
+		base: ['mx-auto'],
 		variants: {
 			expand: {
 				full: '',

@@ -32,6 +32,34 @@ export const clientsData = [
         alt: "client6",
         img: client6,
     },
+
+
+    {
+        alt: "client1",
+        img: client1,
+    },
+    {
+        alt: "client2",
+        img: client2,
+    },
+    {
+        alt: "client3",
+        img: client3,
+    },
+    {
+        alt: "client4",
+        img: client4,
+    },
+    {
+        alt: "client5",
+        img: client5,
+    },
+    {
+        alt: "client6",
+        img: client6,
+    },
+
+
     {
         alt: "client1",
         img: client1,
