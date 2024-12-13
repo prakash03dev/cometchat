@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Container from '@/_comps/layouts/Container.svelte';
 	import Section from '@/_comps/layouts/Section.svelte';
 	import H1 from '@/_comps/typography/H1.svelte';

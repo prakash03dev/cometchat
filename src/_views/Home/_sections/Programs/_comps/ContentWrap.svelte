@@ -2,6 +2,9 @@
 	import Medium from '@/_comps/typography/Medium.svelte';
 	import { cn, tv } from '@/_utils/tailwind.utils';
 	import type { Snippet } from 'svelte';
+	import gsap from 'gsap';
+	import { onMount } from 'svelte';
+	import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 
 	interface Props {
 		className?: string;
@@ -14,9 +17,21 @@
 	const contentWrap = tv({
 		base: ['text-left max-w-[394px] w-full']
 	});
+
+	let element: HTMLElement;
+	onMount(() => {
+		gsap.registerPlugin(ScrollTrigger);
+		gsap.from(element, {
+			rotateZ: '20%',
+			scrollTrigger: {
+				trigger: element,
+				start: 'top 60%'
+			}
+		});
+	});
 </script>
 
-<div class={contentWrap({ class: className })}>
+<div class={contentWrap({ class: className })} bind:this={element}>
 	<Icon />
 	<Medium className={cn(['text-grayscale_12 mt-2'], ['lg:mt-3'])}>
 		{title}
