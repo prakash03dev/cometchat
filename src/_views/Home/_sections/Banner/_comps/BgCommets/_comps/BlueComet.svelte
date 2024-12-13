@@ -1,5 +1,5 @@
 <script>
-	import blue_comet from '@/_views/Home/_sections/Banner/_assets/blue_comet.png';
+	import blue_comet from '@/_views/Home/_sections/Banner/_assets/blue_comet.svg';
 </script>
 
 <div class="relative">

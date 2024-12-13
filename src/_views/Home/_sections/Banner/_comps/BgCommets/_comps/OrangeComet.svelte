@@ -1,5 +1,5 @@
 <script>
-	import orange_comet from '@/_views/Home/_sections/Banner/_assets/orange_comet.png';
+	import orange_comet from '@/_views/Home/_sections/Banner/_assets/orange_comet.svg';
 </script>
 
 <div class="relative">

@@ -34,7 +34,7 @@
 		const redMiniCommetTimeline = gsap.timeline({ repeat: -1 });
 		redMiniCommetTimeline.to(redMiniCommet, {
 			keyframes: {
-				y: ['5%', '0%', '5%']
+				y: ['50%', '40%', '50%']
 			},
 			duration: 10,
 			yoyo: true
@@ -57,7 +57,7 @@
 		bind:this={blueCommet}
 		data-name="blue-comet"
 		class={cn(
-			['absolute left-0 bottom-0 -z-2 -translate-x-1/2'],
+			['absolute left-0 bottom-0 -z-2 -translate-x-1/2', 'will-change-transform'],
 			['lg:translate-x-3/4'],
 			['xl:-translate-x-1/2']
 		)}
@@ -69,7 +69,10 @@
 		bind:this={blueMiniCommet}
 		data-name="blue-mini-comet"
 		class={cn(
-			['hidden absolute right-1/2 bottom-0 -z-2 translate-x-[55%] translate-y-[23%]'],
+			[
+				'hidden absolute right-1/2 bottom-0 -z-2 translate-x-[55%] translate-y-[23%]',
+				'will-change-transform'
+			],
 			['lg:block']
 		)}
 	>
@@ -79,7 +82,10 @@
 	<div
 		bind:this={redMiniCommet}
 		data-name="red-comet"
-		class={cn(['absolute right-0 bottom-0 -z-2 translate-x-[40%] translate-y-[40%]'])}
+		class={cn([
+			'absolute right-0 bottom-0 -z-2 translate-x-[40%] translate-y-[40%]',
+			'will-change-transform'
+		])}
 	>
 		<RedCommet />
 	</div>
@@ -88,7 +94,11 @@
 		bind:this={orangeMiniCommet}
 		data-name="orange-comet"
 		class={cn(
-			['hidden absolute left-0 bottom-0 -z-2', '-translate-x-[30%] translate-y-[40%]'],
+			[
+				'hidden absolute left-0 bottom-0 -z-2',
+				'-translate-x-[30%] translate-y-[40%]',
+				'will-change-transform'
+			],
 			['lg:block']
 		)}
 	>
