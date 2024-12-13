@@ -19,6 +19,7 @@ export enum COLORS {
     orange_dark_09 = "#ff7f3e",
 
     red_05 = "#fbd3cd",
+    transparent = "transparent",
 }
 
 export type ColorProps = keyof typeof COLORS;
