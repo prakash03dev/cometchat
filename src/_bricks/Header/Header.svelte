@@ -7,7 +7,7 @@
 	import Burger from './_comps/Burger.svelte';
 	import MenuItem from './_comps/MenuItem.svelte';
 	import bg_blur_mobile from './_assets/bg_blur_mobile.png';
-	import Button from '@/_comps/form/Button.svelte';
+	import Button from '@/_comps/form/Button/Button.svelte';
 
 	let scrollY = $state(0);
 	let isHeaderActive = $derived(scrollY > 30);

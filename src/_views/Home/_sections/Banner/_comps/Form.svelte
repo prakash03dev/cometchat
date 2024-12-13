@@ -4,7 +4,7 @@
 	import InputField from '@/_comps/form/Input/InputField.svelte';
 	import Label from '@/_comps/form/Input/Label.svelte';
 	import H3 from '@/_comps/typography/H3.svelte';
-	import Button from '@/_comps/form/Button.svelte';
+	import Button from '@/_comps/form/Button/Button.svelte';
 </script>
 
 <div class={cn(['relative isolate', 'p-5 h-max'], ['lg:p-8 lg:max-w-[540px]'])}>

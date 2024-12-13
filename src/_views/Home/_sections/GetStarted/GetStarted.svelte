@@ -1,5 +1,5 @@
 <script>
-	import Button from '@/_comps/form/Button.svelte';
+	import Button from '@/_comps/form/Button/Button.svelte';
 	import Container from '@/_comps/layouts/Container.svelte';
 	import Section from '@/_comps/layouts/Section.svelte';
 	import H2 from '@/_comps/typography/H2.svelte';
@@ -23,7 +23,7 @@
 			Build and test for as long as you need. Pick a plan when you’re ready.
 		</Large>
 		<div class={cn(['flex items-center gap-3 mt-6'], ['sm:justify-center sm:mt-8'])}>
-			<Button>Start free trial</Button>
+			<Button color="secondary">Start free trial</Button>
 			<Button>Schedule a demo</Button>
 		</div>
 		<div class="h-14"></div>
