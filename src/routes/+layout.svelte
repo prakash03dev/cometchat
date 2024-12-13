@@ -4,8 +4,10 @@
 	import '../_theme/font.css';
 	import '../_theme/global.css';
 	import Header from '@/_bricks/Header/Header.svelte';
-	let { children } = $props();
+	import Footer from '@/_bricks/Footer/Footer.svelte';
+	const { children } = $props();
 </script>
 
 <Header />
 {@render children()}
+<Footer />
