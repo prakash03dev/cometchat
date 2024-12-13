@@ -3,7 +3,7 @@ import StartupIcon from '../_icons/StartupIcon.svelte';
 import TecnologyIcon from '../_icons/TecnologyIcon.svelte';
 
 interface ContentProps {
-	icon: __sveltets_2_IsomorphicComponent;
+	icon: any;
 	title: string;
 	des: string;
 }

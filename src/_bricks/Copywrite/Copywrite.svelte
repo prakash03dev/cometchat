@@ -55,7 +55,13 @@
 	>
 		<div class={cn(['flex items-center justify-between gap-4 order-1'], ['lg:-order-1'])}>
 			{#each links as link}
-				<a href="#" class={cn(['font-600 text-14 text-grayscale_01'])}>{link}</a>
+				<a
+					href="#"
+					class={cn([
+						'font-600 text-14 text-grayscale_01 hover:text-orange_09',
+						'transition-colors duration-300'
+					])}>{link}</a
+				>
 			{/each}
 		</div>
 

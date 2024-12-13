@@ -11,8 +11,8 @@
 <Section id="partner" className="bg-grayscale_01">
 	<Container>
 		<div class={cn(['flex flex-col gap-2 text-left max-w-[528px]'], ['lg:gap-3'])}>
-			<H3 className="text-brand_09" tagName="p">The benefits</H3>
-			<H1 tagName="h2" className=" text-grayscale_12">CometChat partner advantages</H1>
+			<H3 tagName="p" className="text-brand_09">Our programs</H3>
+			<H1 tagName="h2" className=" text-grayscale_12">Types of partnerships programs</H1>
 		</div>
 
 		<div

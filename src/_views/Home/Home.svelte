@@ -12,7 +12,11 @@
 	<Banner />
 	<Clients />
 	<Partner />
-	<Programs />
-	<Faqs />
+
+	<div class="bg-grayscale_01">
+		<Programs />
+		<Faqs />
+	</div>
+
 	<GetStarted />
 </Page>
