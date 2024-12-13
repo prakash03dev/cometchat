@@ -14,7 +14,8 @@
 			'bg-grayscale_01 bg-opacity-[2%]',
 			'border border-grayscale_01 border-opacity-10 rounded-[14px]',
 			'font-600 text-16 text-grayscale_01 leading-112 text-opacity-65',
-			'placeholder-shown:text-grayscale_01 placeholder-shown:text-opacity-75'
+			'placeholder-shown:text-grayscale_01 placeholder-shown:text-opacity-75',
+			'invalid:animate-shake animate-shake'
 		]
 	});
 </script>

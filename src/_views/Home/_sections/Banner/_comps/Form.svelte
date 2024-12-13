@@ -10,14 +10,20 @@
 <div class={cn(['relative isolate', 'p-5 h-max'], ['lg:p-8 lg:max-w-[540px]'])}>
 	<div class="flex flex-col gap-6">
 		<H3 className="text-grayscale_01">Became a partner</H3>
-		<form class="flex flex-col gap-4">
+		<form id="form-hero" class="flex flex-col gap-4">
 			<InputField>
 				<Label for="FULL_NAME">Full name</Label>
 				<Input id="FULL_NAME" placeholder="Enter your fullname..." name="FULL_NAME" required />
 			</InputField>
 			<InputField>
 				<Label for="EMAIL_ADDRESS">Email address</Label>
-				<Input id="EMAIL_ADDRESS" placeholder="Enter your email..." name="EMAIL_ADDRESS" required />
+				<Input
+					id="EMAIL_ADDRESS"
+					placeholder="Enter your email..."
+					name="EMAIL_ADDRESS"
+					type="email"
+					required
+				/>
 			</InputField>
 			<InputField>
 				<Label for="COMPANY_NAME">Company name</Label>

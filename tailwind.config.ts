@@ -1,7 +1,14 @@
 import type { Config } from 'tailwindcss';
 import { COLORS } from './src/_consts/colors.const';
 import { FONT_FAMILY, FONT_WEIGHT, FONT_SIZE, LINE_HEIGHT } from './src/_consts/font.const';
-import { FLEX, BORDER_RADIUS, CONTENT, Z_INDEX } from "./src/_consts/theme.const";
+import {
+	FLEX,
+	BORDER_RADIUS,
+	CONTENT,
+	Z_INDEX,
+	ANIMATION,
+	KEYFRAMES
+} from './src/_consts/theme.const';
 
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -17,6 +24,8 @@ export default {
 			borderRadius: BORDER_RADIUS,
 			content: CONTENT,
 			zIndex: Z_INDEX,
+			animation: { ...ANIMATION },
+			keyframes: { ...KEYFRAMES }
 		}
 	},
 
