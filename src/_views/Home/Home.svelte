@@ -5,12 +5,14 @@
 	import Clients from './_sections/Clients/Clients.svelte';
 	import Faqs from './_sections/Faqs/Faqs.svelte';
 	import GetStarted from './_sections/GetStarted/GetStarted.svelte';
+	import Programs from './_sections/Programs/Programs.svelte';
 </script>
 
 <Page className="bg-grayscale_dark_01">
 	<Banner />
 	<Clients />
 	<Partner />
+	<Programs />
 	<Faqs />
 	<GetStarted />
 </Page>
